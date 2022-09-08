@@ -42,3 +42,100 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+body {
+  color: black;
+  text-align: center;
+  font-family: "Roboto";
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-size: 16px;
+}
+
+hr {
+  height: 2px;
+  background-color: #df0000;
+  border: none;
+}
+
+.title-logo {
+  background-color: #e7e7db;
+  padding: 14px 95px 12px 95px;
+}
+
+.header-img {
+  background-color: #df0000;
+}
+
+header h1 {
+  font-size: 36px;
+  padding: 25px 76px 22px 75px;
+  line-height: 42px;
+}
+
+span {
+  color: #df0000;
+}
+
+h2 {
+  font-size: 18px;
+  padding-bottom: 11px;
+}
+
+main {
+  padding: 22px 0;
+}
+
+.description-main {
+  font-size: 21px;
+  padding: 0 39px;
+}
+
+.about-serie {
+  padding: 36px 39px 14px 39px;
+}
+
+.play-game {
+  padding: 36px 39px 14px 39px;
+}
+
+.starter-set {
+  padding: 20px 39px;
+}
+
+.box-order {
+  background-color: #df0000;
+  color: white;
+  width: 130px;
+  padding-top: 7px;
+  padding-bottom: 6px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px grey;
+}
+
+.box-order a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  color: white;
+  background-image: url(../_consigne/images/background.png);
+  background-size: 100%;
+  padding: 22px 0 38px 0;
+  margin-top: 30px;
+}
+
+.description-footer {
+  color: #df0000;
+  padding-bottom: 31px;
+}
+
+.links {
+  font-size: 12px;
+}
